@@ -1,0 +1,16 @@
+{
+  "name": "tailwind_trial_4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-tailwind": "npx tailwindcss -o ./public/css/tailwind.css -i ./styles/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19"
+  }
+}
