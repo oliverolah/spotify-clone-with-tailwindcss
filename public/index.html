@@ -10,7 +10,7 @@
 <body class="h-screen">
    
    <!-- NAV BAR -->
-   <nav class="bg-black h-14 w-max-screen flex">
+   <nav class="bg-black h-14 w-max-screen flex relative z-10">
       <div class="flex w-11/12 h-3/4 mx-auto my-auto justify-between">
          <div class="flex gap-1">
             <a href="./index.html" class="flex">
@@ -47,11 +47,12 @@
    </nav>
 
    <!-- HERO SECTION -->
-   <section class="h-3/4 w-max-screen bg-blue-800 flex">
+   <section class="h-3/4 w-max-screen bg-blue-800 flex relative z-0">
       <!-- Circles -->
-      <!-- <div class="absolute w-40 h-40 rounded-full bg-lime-400 right-5 -top-16 z-0"></div>
-      <div class=""></div>
-      <div class=""></div> -->
+      <div class="absolute w-40 h-40 rounded-full bg-lime-400 right-5 -top-20 z-10"></div>
+      <div class="absolute w-32 h-32 rounded-full bg-lime-400 bottom-3 right-8"></div>
+      <div class="absolute w-28 h-28 rounded-full bg-lime-400 -bottom-10 left-28 z-10"></div>
+      <div class="absolute w-60 h-60 rounded-full bg-lime-500 -bottom-16 -left-20 z-10 mix-blend-luminosity"></div>
 
       <div class="w-3/4 mx-auto my-auto grid gap-8">
          <h1 class="text-lime-400 text-3xl font-bold text-center">Listening is everything</h1>
@@ -63,5 +64,8 @@
    </section>
 
    <!-- FOOTER -->
+   <footer class="relative z-20 bg-black h-48">
+
+   </footer>
 </body>
 </html>
