@@ -26,6 +26,7 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
+      lime: colors.lime,
     },
     spacing: {
       px: '1px',
@@ -898,7 +899,7 @@ module.exports = {
     gridRowStart: ['responsive'],
     gridTemplateColumns: ['responsive'],
     gridTemplateRows: ['responsive'],
-    height: ['responsive'],
+    height: ['responsive',  'hover', 'focus'], // adding  "hover", "focus"
     hueRotate: ['responsive'],
     inset: ['responsive'],
     invert: ['responsive'],
@@ -963,7 +964,7 @@ module.exports = {
     verticalAlign: ['responsive'],
     visibility: ['responsive'],
     whitespace: ['responsive'],
-    width: ['responsive'],
+    width: ['responsive',  'hover', 'focus'], // adding  "hover", "focus"
     wordBreak: ['responsive'],
     zIndex: ['responsive', 'focus-within', 'focus'],
   },
