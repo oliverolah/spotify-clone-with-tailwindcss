@@ -4,19 +4,19 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-   <link rel="stylesheet" href="./css/tailwind.css">
+   <title>Document</title class="">
+   <link rel="stylesheet font-normal" href="./css/tailwind.css">
 </head>
 <body class="h-screen">
    
    <!-- NAV BAR -->
    <nav class="bg-black h-14 w-max-screen flex relative z-10">
       <div class="flex w-11/12 h-3/4 mx-auto my-auto justify-between">
-         <div class="flex gap-1">
+         <div class="flex">
             <a href="./index.html" class="flex">
                <img src="./images/spotify-logo.png" alt="Spotify Logo" class="h-7 my-auto">
+               <h3 class="text-white font-medium my-auto ml-1">Spotify</h3>
             </a>
-            <h3 class="text-white font-medium my-auto">Spotify</h3>
          </div>
 
          <div class="flex h-full gap-2">
@@ -32,12 +32,12 @@
          </div>
 
          <div class="flex gap-2">
-            <button class="hover:bg-gray-800 p-2 duration-150 rounded-sm">
+            <button class="hover:bg-trueGray-800 p-2 duration-150 rounded-full">
                <a href="#">
                   <img src="./images/sign-up-logo.png" alt="Signup Logo" class="h-5">
                </a>
             </button>
-            <button class="hover:bg-gray-800 p-2 duration-150 rounded-sm">
+            <button class="hover:bg-trueGray-800 p-2 duration-150 rounded-full">
                <a href="#">
                   <img src="./images/log-in-logo.png" alt="Login Logo" class="h-5">
                </a>
@@ -49,7 +49,7 @@
    <!-- HERO SECTION -->
    <section class="h-3/4 w-max-screen bg-blue-800 flex relative z-0">
       <!-- Circles -->
-      <div class="absolute w-40 h-40 rounded-full bg-lime-400 right-5 -top-20 z-10"></div>
+      <div class="absolute w-60 h-60 rounded-full bg-lime-400 right-2 -top-44 z-10"></div>
       <div class="absolute w-32 h-32 rounded-full bg-lime-400 bottom-3 right-8"></div>
       <div class="absolute w-28 h-28 rounded-full bg-lime-400 -bottom-10 left-28 z-10"></div>
       <div class="absolute w-60 h-60 rounded-full bg-lime-500 -bottom-16 -left-20 z-10 mix-blend-luminosity"></div>
@@ -64,8 +64,107 @@
    </section>
 
    <!-- FOOTER -->
-   <footer class="relative z-20 bg-black h-48">
+   <footer class="relative z-20 bg-black h-auto">
+      <div class="w-11/12 mx-auto pb-7">
+         <div class="pt-14">
+            <a href="./index.html" class="flex">
+               <img src="./images/spotify-logo.png" alt="Spotify Logo" class="h-7 my-auto">
+               <h3 class="text-white font-medium my-auto ml-1">Spotify</h3>
+            </a>
+            <!-- <h3 class="text-white font-medium my-auto">Spotify</h3> -->
+         </div>
 
+         <div class="mt-14">
+            <h3 class="text-trueGray-500 font-bold text-sm mb-6">COMPANY</h3>
+            <ul class="grid gap-4">
+               <li class="text-white font-normal hover:text-lime-400">
+                  <a href="#">About</a>
+               </li>
+               <li class="text-white font-normal hover:text-lime-400">
+                  <a href="#">Jobs</a>
+               </li>
+               <li class="text-white font-normal hover:text-lime-400">
+                  <a href="#">For the Record</a>
+               </li>
+            </ul>
+         </div>
+         <div class="mt-14">
+            <h3 class="text-trueGray-500 font-bold text-sm mb-6">COMMUNITIES</h3>
+            <ul class="grid gap-4">
+               <li class="text-white font-normal hover:text-lime-400">
+                  <a href="#">For Artists</a>
+               </li>
+               <li class="text-white font-normal hover:text-lime-400">
+                  <a href="#">Developers</a>
+               </li>
+               <li class="text-white font-normal hover:text-lime-400">
+                  <a href="#">Advertising</a>
+               </li>
+               <li class="text-white font-normal hover:text-lime-400">
+                  <a href="#">Investors</a>
+               </li>
+               <li class="text-white font-normal hover:text-lime-400">
+                  <a href="#">Vendors</a>
+               </li>
+            </ul>
+         </div>
+         <div class="mt-14">
+            <h3 class="text-trueGray-500 font-bold text-sm mb-6">USEFUL LINKS</h3>
+            <ul class="grid gap-4">
+               <li class="text-white font-normal hover:text-lime-400">
+                  <a href="#">Support</a>
+               </li>
+               <li class="text-white font-normal hover:text-lime-400">
+                  <a href="#">Web Player</a>
+               </li>
+               <li class="text-white font-normal hover:text-lime-400"><a href="#">Free Mobile App</a>
+               </li>
+            </ul>
+         </div>
+
+         <div class=" mt-24 flex gap-4">
+            <button class="bg-trueGray-800 p-3 duration-150 rounded-full hover:bg-trueGray-700">
+               <a href="#">
+                  <img src="./images/instagram-logo.png" alt="Instagram Logo" class="h-6">
+               </a>
+            </button>
+            <button class="bg-trueGray-800 p-3 duration-150 rounded-full hover:bg-trueGray-700">
+               <a href="#">
+                  <img src="./images/twitter-logo.png" alt="Twitter Logo" class="h-6">
+               </a>
+            </button>
+            <button class="bg-trueGray-800 p-3 duration-150 rounded-full hover:bg-trueGray-700">
+               <a href="#">
+                  <img src="./images/facebook-logo.png" alt="Facebook Logo" class="h-6">
+               </a>
+            </button>
+         </div>
+
+         <div class="mt-5">
+            <div class="flex gap-2 justify-end">
+               <img src="./images/earth-logo.png" alt="Earth Logo" class="h-3 my-auto">
+               <a href="#" class="text-trueGray-500 font-medium text-xs hover:text-lime-400">USA</a>
+            </div>
+         </div>
+
+         <div class="flex justify-between mt-1">
+            <div class="flex gap-6 my-auto">
+               <a href="#" class="text-trueGray-500 text-xs hover:text-lime-400">Legal</a>
+               <a href="#" class="text-trueGray-500 text-xs hover:text-lime-400"> Privacy Center</a>
+               <a href="#" class="text-trueGray-500 text-xs hover:text-lime-400">Privacy Policy</a>
+               <a href="#" class="text-trueGray-500 text-xs hover:text-lime-400">Cookies</a>
+            </div>
+            <div>
+               <span class="text-trueGray-500 text-xs">&copy</span>
+               <span class="text-trueGray-500 text-xs">2021 Spotify AB</span>
+            </div>
+         </div>
+
+         <div class="flex gap-6 my-auto mt-3">
+            <a href="#" class="text-trueGray-500 text-xs hover:text-lime-400">About Ads</a>
+            <a href="#" class="text-trueGray-500 text-xs hover:text-lime-400"> Additional CA Privacy Disclosures</a>
+         </div>
+      </div>
    </footer>
 </body>
 </html>
