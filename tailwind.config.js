@@ -28,6 +28,7 @@ module.exports = {
       pink: colors.pink,
       lime: colors.lime,
       trueGray: colors.trueGray,
+      spotifyGreenMain: '#1DB954',
     },
     spacing: {
       px: '1px',
